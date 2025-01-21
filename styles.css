@@ -1,0 +1,84 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Header Stili */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  header .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    font-size: 18px;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Stili */
+  main {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .section {
+    margin: 40px 0;
+  }
+  
+  .section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  ul {
+    padding-left: 20px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Footer Stili */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
